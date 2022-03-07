@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GSAP Landing Page Transition Animation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="nav-logo">SMARTWATCH</a>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Brand</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Kids</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Men</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Women</a></li>
+                </ul>
+                <div class="shopping-bag">
+                    <i class='bx bx-shopping-bag'><span class="bag-item-count">0</span> </i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero">
+
+        <div class="circle circle-small">
+            <img src="images/circle-small.png" alt="">
+        </div>
+
+        <div class="circle circle-large">
+            <img src="images/circle-large.png" alt="">
+        </div>
+
+        <div class="container">
+            <div class="content">
+                <div class="text">
+                    <h1>Luxury <br> Smart <span> Watch</span></h1>
+                    <h5>Future of the World</h5>
+                    <p>Get Live Advice from a Luxury Watch Expert - A personalized shopping experience from the comfort of your own home or office !!</p>
+                    <a href="#" class="cta">Shop now</a>
+                </div>
+                <div class="watch-wrapper">
+                    <img src="images/watch.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="overlay">
+            <div class="layer layer-1"></div>
+            <div class="layer layer-2"></div>
+            <div class="layer layer-3"></div>
+        </div>
+    </section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

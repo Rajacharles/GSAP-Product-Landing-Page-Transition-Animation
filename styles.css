@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(images/bg-2.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10px;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3rem 0;
+    z-index: 999;
+}
+
+.container{
+    max-width: 140rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    font-size: 3rem;
+    font-weight: 800;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-item {
+    margin: 0 2.5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: color .5s;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, .5);
+}
+
+.shopping-bag i {
+    display: inline-block;
+    font-size: 1.8rem;
+    color: #fff;
+    cursor: pointer;
+    transform: translateX(-2rem);
+}
+
+.bag-item-count {
+    width: 2rem;
+    height: 2rem;
+    background-color: #222;
+    color: #fff;
+    font-size: 1.2rem;
+    font-style: normal;
+    border-radius: 50%;
+    position: absolute;
+    top: -1rem;
+    right: -2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+.text {
+    color: #fff;
+    flex: 1;
+    text-transform: uppercase;
+}
+
+.text h1 {
+    font-size: calc(1rem + 4vw);
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.text h1 span {
+    color: #222;
+}
+
+.text h5 {
+    font-size: 1.9rem;
+    font-weight: 800;
+    margin: 8rem 0 4rem 0;
+}
+
+.text p {
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.cta {
+    display: inline-block;
+    font-size: 1.4rem;
+    background-color: #222;
+    padding: 1.5rem 3rem;
+    font-weight: 800;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cta:hover {
+    background-color: #333;
+}
+
+.watch-wrapper {
+    flex: 0 0 35%
+}
+
+.circle {
+    position: absolute;
+}
+
+.circle-small {
+    top: -15rem;
+    left: -21rem;
+}
+
+.circle-large{
+    bottom: -80rem;
+    right: -60rem;
+}
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 1000;
+    display: flex;
+    top: 0;
+    left: 0;
+}
+
+.layer {
+    background-color: #000;
+}
+
+.layer-1 {
+    flex: 1;
+}
+
+.layer-2 {
+    flex: 1;
+}
+
+.layer-3 {
+    flex: 1;
+}
